@@ -55,11 +55,14 @@ export function generateStaticParams() {
 
 export default async function RootLayout({
   children,
-  params: { locale },
+  params,
 }: Readonly<{
   children: React.ReactNode;
   params: { locale: string };
 }>) {
+  // Await params for compatibility with Next.js 15+
+  const { locale } = await Promise.resolve(params);
+
   // Validate locale
   if (!locales.includes(locale as any)) {
     notFound();
