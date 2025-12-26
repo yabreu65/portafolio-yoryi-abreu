@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "description": "I create modern web applications with focus on performance, scalability, and user experience. Specialized in React, Next.js, and Node.js.",
+    "cta": "View Projects",
+    "contact": "Get In Touch",
+    "scrollDown": "Scroll down to explore",
+    "availability": "Available for work",
+    "_availabilityOptions": {
+      "_comment": "Change the value of 'availability' based on your employment status:",
+      "lookingForWork": "Available for work",
+      "openToOffers": "Open to opportunities",
+      "notAvailable": "Not available",
+      "currentlyEmployed": "Currently employed",
+      "busyWithProjects": "Busy with projects",
+      "consideringOpportunities": "Considering new opportunities"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Building digital experiences",
+    "subtitleHighlight": "that matter",
+    "paragraph1": "Hi there! I'm a Full-Stack Developer with a passion for creating elegant solutions to complex problems. With several years of experience in web development, I've had the privilege of working on diverse projects that challenge and inspire me.",
+    "paragraph2": "My journey in tech began with a curiosity about how things work under the hood. Today, I specialize in building scalable web applications using modern technologies like React, Next.js, and Node.js. I believe in writing clean, maintainable code and creating intuitive user experiences.",
+    "paragraph3": "When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing what I've learned with the developer community. I'm always excited to take on new challenges and collaborate on innovative projects.",
+    "stats": {
+      "experience": "Years Experience",
+      "projects": "Projects Completed",
+      "clients": "Happy Clients",
+      "dedication": "Dedication"
+    },
+    "availability": "Available for work"
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "subtitle": "My tech",
+    "subtitleHighlight": "stack",
+    "learningText": "Always learning and exploring new technologies",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "devops": "DevOps & Cloud",
+      "ai": "AI & Automation",
+      "tools": "Tools",
+      "learning": "Learning"
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Building innovative",
+    "subtitleHighlight": "solutions",
+    "viewDemo": "View Demo",
+    "viewCode": "View Code",
+    "liveDemo": "Live Demo",
+    "featured": "Featured",
+    "seeMore": "Want to see more of my work?",
+    "viewAllGithub": "View All Projects on GitHub",
+    "items": {
+      "1": {
+        "name": "E-Commerce Platform",
+        "description": "Full-stack e-commerce solution with admin dashboard, payment integration, and real-time inventory management. Features include product filtering, shopping cart, order tracking, and analytics."
+      },
+      "2": {
+        "name": "Task Management App",
+        "description": "Collaborative task manager with real-time updates, team workspaces, and advanced filtering. Built with WebSocket for instant synchronization across devices and users."
+      },
+      "3": {
+        "name": "Analytics Dashboard",
+        "description": "Real-time analytics platform with custom charts, data visualization, and export functionality. Processes large datasets efficiently with interactive graphs and customizable metrics."
+      },
+      "4": {
+        "name": "Social Media Platform",
+        "description": "Modern social networking application with posts, comments, real-time notifications, and user profiles. Includes image uploads, likes, follows, and a personalized feed algorithm."
+      },
+      "5": {
+        "name": "AI Content Generator",
+        "description": "AI-powered content creation tool that generates blog posts, social media content, and marketing copy. Integrates with OpenAI API and includes template customization."
+      },
+      "6": {
+        "name": "Fitness Tracking App",
+        "description": "Comprehensive fitness application for tracking workouts, nutrition, and progress. Features workout plans, calorie counter, progress charts, and personalized recommendations."
+      }
+    }
+  },
+  "contact": {
+    "title": "Let's Work Together",
+    "subtitle": "Have a project in mind?",
+    "subtitleHighlight": "Let's talk",
+    "description": "I'm currently available for freelance work and full-time opportunities. Let's create something amazing together!",
+    "email": "Email",
+    "location": "Location",
+    "availability": "Availability",
+    "social": "Social Media",
+    "getInTouch": "Get In Touch",
+    "sendEmail": "Send Me an Email",
+    "connectLinkedIn": "Connect on LinkedIn",
+    "findMe": "Or find me on"
+  },
+  "footer": {
+    "description": "Full-Stack Developer specialized in creating modern and scalable web experiences.",
+    "quickLinks": "Quick Links",
+    "connect": "Connect",
+    "rights": "All rights reserved",
+    "madeWith": "Made with",
+    "by": "by"
+  },
+  "seo": {
+    "title": "Yoryi Abreu | Full-Stack Developer & AI Engineer",
+    "description": "Professional portfolio of Yoryi Abreu, full-stack developer specialized in Next.js, React, Node.js, artificial intelligence and telecommunications. Scalable projects, modern dashboards and AI solutions for businesses."
+  }
+}

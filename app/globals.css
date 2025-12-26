@@ -1,0 +1,279 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS Variables para la paleta de colores */
+:root {
+  /* Primary Colors */
+  --color-primary: #EF4444;
+  --color-primary-light: #F87171;
+  --color-primary-dark: #DC2626;
+
+  /* Secondary Colors */
+  --color-secondary: #F97316;
+  --color-secondary-light: #FB923C;
+  --color-secondary-dark: #EA580C;
+
+  /* Spacing */
+  --spacing-section: 6rem;
+  --spacing-section-mobile: 3rem;
+}
+
+/* Dark Mode Colors (default) */
+.dark {
+  /* Background Colors for Dark Mode */
+  --color-background: #1A1A1A;
+  --color-background-light: #262626;
+
+  /* Surface Colors for Dark Mode */
+  --color-surface: #2A2A2A;
+  --color-surface-light: #3A3A3A;
+
+  /* Text Colors for Dark Mode */
+  --color-text-primary: #F5F5F5;
+  --color-text-secondary: #A3A3A3;
+
+  /* Border Colors for Dark Mode */
+  --color-border: #3A3A3A;
+  --color-border-light: #525252;
+}
+
+/* Light Mode Colors */
+:root:not(.dark) {
+  /* Background Colors for Light Mode */
+  --color-background: #F5F5F5;
+  --color-background-light: #FFFFFF;
+
+  /* Surface Colors for Light Mode */
+  --color-surface: #FFFFFF;
+  --color-surface-light: #FAFAFA;
+
+  /* Text Colors for Light Mode */
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #525252;
+
+  /* Border Colors for Light Mode */
+  --color-border: #E5E5E5;
+  --color-border-light: #D4D4D4;
+}
+
+/* Base Styles */
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-text-primary antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Headings */
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl font-semibold tracking-tight;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl font-semibold;
+  }
+
+  h5 {
+    @apply text-lg md:text-xl font-semibold;
+  }
+
+  h6 {
+    @apply text-base md:text-lg font-semibold;
+  }
+
+  /* Paragraph */
+  p {
+    @apply text-base leading-relaxed;
+  }
+
+  /* Links */
+  a {
+    @apply transition-colors duration-200;
+  }
+
+  /* Selection */
+  ::selection {
+    @apply bg-primary/30 text-text-primary;
+  }
+
+  /* Scrollbar Styling */
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-surface-light rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-border-light;
+  }
+}
+
+/* Custom Component Styles */
+@layer components {
+  /* Container */
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Section Spacing */
+  .section-spacing {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+
+  /* Card */
+  .card {
+    @apply bg-surface border border-border rounded-lg shadow-card transition-all duration-300;
+  }
+
+  .card-hover {
+    @apply hover:shadow-card-hover hover:border-border-light hover:-translate-y-1;
+  }
+
+  /* Glass Effect */
+  .glass {
+    @apply bg-surface/50 backdrop-blur-md border border-border/50;
+  }
+
+  /* Gradient Text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary via-secondary to-primary bg-clip-text text-transparent;
+  }
+
+  /* Button Primary */
+  .btn-primary {
+    @apply px-6 py-3 bg-primary text-white font-semibold rounded-lg
+           transition-all duration-300 hover:bg-primary-light
+           hover:shadow-glow-primary hover:scale-105
+           active:scale-95 focus:outline-none focus:ring-2
+           focus:ring-primary focus:ring-offset-2 focus:ring-offset-background;
+  }
+
+  /* Button Secondary */
+  .btn-secondary {
+    @apply px-6 py-3 bg-transparent border-2 border-primary text-primary
+           font-semibold rounded-lg transition-all duration-300
+           hover:bg-primary hover:text-white hover:shadow-glow-primary
+           hover:scale-105 active:scale-95 focus:outline-none
+           focus:ring-2 focus:ring-primary focus:ring-offset-2
+           focus:ring-offset-background;
+  }
+
+  /* Link Underline Effect */
+  .link-underline {
+    @apply relative after:absolute after:bottom-0 after:left-0
+           after:h-0.5 after:w-0 after:bg-primary
+           after:transition-all after:duration-300
+           hover:after:w-full hover:text-primary;
+  }
+
+  /* Tag/Badge */
+  .tag {
+    @apply inline-flex items-center px-3 py-1 text-sm font-medium
+           rounded-full bg-primary/10 text-primary border border-primary/20;
+  }
+
+  /* Input Field */
+  .input-field {
+    @apply w-full px-4 py-3 bg-surface border border-border
+           rounded-lg text-text-primary placeholder:text-text-secondary
+           focus:outline-none focus:border-primary focus:ring-1
+           focus:ring-primary transition-all duration-200;
+  }
+
+  /* Textarea */
+  .textarea-field {
+    @apply w-full px-4 py-3 bg-surface border border-border
+           rounded-lg text-text-primary placeholder:text-text-secondary
+           focus:outline-none focus:border-primary focus:ring-1
+           focus:ring-primary transition-all duration-200
+           resize-none min-h-[120px];
+  }
+}
+
+/* Utility Classes */
+@layer utilities {
+  /* Text Gradient Animation */
+  .text-gradient-animate {
+    background-size: 200% auto;
+    animation: gradient-shift 3s ease infinite;
+  }
+
+  @keyframes gradient-shift {
+    0%, 100% {
+      background-position: 0% center;
+    }
+    50% {
+      background-position: 100% center;
+    }
+  }
+
+  /* Fade In Animation */
+  .fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+
+  /* Hide Scrollbar */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Custom Grid Patterns */
+  .grid-pattern {
+    background-image:
+      linear-gradient(to right, rgba(51, 65, 85, 0.1) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(51, 65, 85, 0.1) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  /* Dot Pattern */
+  .dot-pattern {
+    background-image: radial-gradient(circle, rgba(51, 65, 85, 0.2) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+}
+
+/* Print Styles */
+@media print {
+  body {
+    @apply text-black bg-white;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

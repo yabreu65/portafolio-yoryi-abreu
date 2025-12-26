@@ -1,0 +1,118 @@
+
+{
+  "nav": {
+    "about": "Sobre Mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "description": "Creo aplicaciones web modernas con enfoque en rendimiento, escalabilidad y experiencia de usuario. Especializado en React, Next.js y Node.js.",
+    "cta": "Ver Proyectos",
+    "contact": "Contactar",
+    "scrollDown": "Desplázate para explorar",
+    "availability": "Disponible para trabajar",
+    "_availabilityOptions": {
+      "_comment": "Cambia el valor de 'availability' según tu situación laboral:",
+      "lookingForWork": "Disponible para trabajar",
+      "openToOffers": "Abierto a oportunidades",
+      "notAvailable": "No disponible",
+      "currentlyEmployed": "Actualmente empleado",
+      "busyWithProjects": "Ocupado con proyectos",
+      "consideringOpportunities": "Considerando nuevas oportunidades"
+    }
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "subtitle": "Construyendo experiencias digitales",
+    "subtitleHighlight": "que importan",
+    "paragraph1": "¡Hola! Soy un Desarrollador Full-Stack con pasión por crear soluciones elegantes a problemas complejos. Con varios años de experiencia en desarrollo web, he tenido el privilegio de trabajar en proyectos diversos que me desafían e inspiran.",
+    "paragraph2": "Mi viaje en tecnología comenzó con curiosidad sobre cómo funcionan las cosas por dentro. Hoy, me especializo en construir aplicaciones web escalables usando tecnologías modernas como React, Next.js y Node.js. Creo en escribir código limpio y mantenible, y en crear experiencias de usuario intuitivas.",
+    "paragraph3": "Cuando no estoy programando, me encontrarás explorando nuevas tecnologías, contribuyendo a proyectos de código abierto, o compartiendo lo que he aprendido con la comunidad de desarrolladores. Siempre estoy emocionado de asumir nuevos desafíos y colaborar en proyectos innovadores.",
+    "stats": {
+      "experience": "Años de Experiencia",
+      "projects": "Proyectos Completados",
+      "clients": "Clientes Satisfechos",
+      "dedication": "Dedicación"
+    },
+    "availability": "Disponible para trabajar"
+  },
+  "skills": {
+    "title": "Habilidades & Tecnologías",
+    "subtitle": "Mi stack",
+    "subtitleHighlight": "tecnológico",
+    "learningText": "Siempre aprendiendo y explorando nuevas tecnologías",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "devops": "DevOps & Cloud",
+      "ai": "IA & Automatización",
+      "tools": "Herramientas",
+      "learning": "Aprendiendo"
+    }
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "subtitle": "Construyendo soluciones",
+    "subtitleHighlight": "innovadoras",
+    "viewDemo": "Ver Demo",
+    "viewCode": "Ver Código",
+    "liveDemo": "Demo en Vivo",
+    "featured": "Destacado",
+    "seeMore": "¿Quieres ver más de mi trabajo?",
+    "viewAllGithub": "Ver Todos los Proyectos en GitHub",
+    "items": {
+      "1": {
+        "name": "Plataforma E-Commerce",
+        "description": "Solución e-commerce full-stack con panel de administración, integración de pagos y gestión de inventario en tiempo real. Incluye filtrado de productos, carrito de compras, seguimiento de pedidos y analíticas."
+      },
+      "2": {
+        "name": "App de Gestión de Tareas",
+        "description": "Gestor de tareas colaborativo con actualizaciones en tiempo real, espacios de trabajo en equipo y filtrado avanzado. Construido con WebSocket para sincronización instantánea entre dispositivos y usuarios."
+      },
+      "3": {
+        "name": "Dashboard de Analíticas",
+        "description": "Plataforma de analíticas en tiempo real con gráficos personalizados, visualización de datos y funcionalidad de exportación. Procesa grandes conjuntos de datos eficientemente con gráficos interactivos y métricas personalizables."
+      },
+      "4": {
+        "name": "Plataforma de Redes Sociales",
+        "description": "Aplicación moderna de redes sociales con publicaciones, comentarios, notificaciones en tiempo real y perfiles de usuario. Incluye carga de imágenes, likes, seguimientos y algoritmo de feed personalizado."
+      },
+      "5": {
+        "name": "Generador de Contenido IA",
+        "description": "Herramienta de creación de contenido impulsada por IA que genera posts de blog, contenido para redes sociales y copy de marketing. Integra con OpenAI API e incluye personalización de plantillas."
+      },
+      "6": {
+        "name": "App de Seguimiento Fitness",
+        "description": "Aplicación integral de fitness para rastrear entrenamientos, nutrición y progreso. Incluye planes de entrenamiento, contador de calorías, gráficos de progreso y recomendaciones personalizadas."
+      }
+    }
+  },
+  "contact": {
+    "title": "Trabajemos Juntos",
+    "subtitle": "¿Tienes un proyecto en mente?",
+    "subtitleHighlight": "Hablemos",
+    "description": "Actualmente estoy disponible para trabajo freelance y oportunidades de tiempo completo. ¡Creemos algo increíble juntos!",
+    "email": "Email",
+    "location": "Ubicación",
+    "availability": "Disponibilidad",
+    "social": "Redes Sociales",
+    "getInTouch": "Contactar",
+    "sendEmail": "Envíame un Email",
+    "connectLinkedIn": "Conectar en LinkedIn",
+    "findMe": "O encuéntrame en"
+  },
+  "footer": {
+    "description": "Desarrollador Full-Stack especializado en crear experiencias web modernas y escalables.",
+    "quickLinks": "Enlaces Rápidos",
+    "connect": "Conectar",
+    "rights": "Todos los derechos reservados",
+    "madeWith": "Hecho con",
+    "by": "por"
+  },
+  "seo": {
+    "title": "Yoryi Abreu | Desarrollador Full-Stack & Ingeniero IA",
+    "description": "Portfolio profesional de Yoryi Abreu, desarrollador full-stack especializado en Next.js, React, Node.js, inteligencia artificial y telecomunicaciones. Proyectos escalables, dashboards modernos y soluciones con IA para empresas."
+  }
+}
