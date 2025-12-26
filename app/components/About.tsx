@@ -26,6 +26,7 @@ export default function About() {
     },
   };
 
+  
   const slideInLeft = {
     hidden: { opacity: 0, x: -60 },
     visible: {
