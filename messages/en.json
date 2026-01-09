@@ -67,8 +67,8 @@
         "description": "Full-stack e-commerce solution with admin dashboard, payment integration, and real-time inventory management. Features include product filtering, shopping cart, order tracking, and analytics."
       },
       "2": {
-        "name": "Task Management App",
-        "description": "Collaborative task manager with real-time updates, team workspaces, and advanced filtering. Built with WebSocket for instant synchronization across devices and users."
+        "name": "Memory Master",
+        "description": "Interactive memory game with multiple difficulty levels and customizable themes. Challenge your mind by finding matching card pairs with attractive visual effects, scoring system, and timer to compete against yourself."
       },
       "3": {
         "name": "Analytics Dashboard",
@@ -79,8 +79,8 @@
         "description": "Modern social networking application with posts, comments, real-time notifications, and user profiles. Includes image uploads, likes, follows, and a personalized feed algorithm."
       },
       "5": {
-        "name": "AI Content Generator",
-        "description": "AI-powered content creation tool that generates blog posts, social media content, and marketing copy. Integrates with OpenAI API and includes template customization."
+        "name": "SEO Tools Platform",
+        "description": "Comprehensive SEO tools platform with keyword analysis, technical audit, rank tracking, and content optimization. Features metadata generation, competitor analysis, and AI-powered recommendations."
       },
       "6": {
         "name": "Fitness Tracking App",

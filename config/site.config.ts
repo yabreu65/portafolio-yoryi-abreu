@@ -113,23 +113,23 @@ export const siteConfig = {
         "Full-stack e-commerce solution with admin dashboard, payment integration, and real-time inventory management. Features include product filtering, shopping cart, order tracking, and analytics.",
       tech: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
       links: {
-        demo: "https://tu-demo1.com",
-        code: "https://github.com/tu-usuario/proyecto1",
+        demo: "https://ecommerce-premium-nu.vercel.app/",
+        code: "https://github.com/yabreu65/Ecommerce-Premium",
       },
-      image: "", // "/images/projects/ecommerce.jpg"
+      image: "/images/ecommer.png", // "/images/projects/ecommerce.jpg"
       featured: true,
     },
     {
       id: 2,
-      name: "Task Management App",
+      name: "Memory Master",
       description:
         "Collaborative task manager with real-time updates, team workspaces, and advanced filtering. Built with WebSocket for instant synchronization across devices and users.",
       tech: ["React", "Node.js", "Socket.io", "MongoDB"],
       links: {
-        demo: "https://tu-demo2.com",
-        code: "https://github.com/tu-usuario/proyecto2",
+        demo: "https://juego-memoria-psi.vercel.app/",
+        code: "https://github.com/yabreu65/juego-memoria",
       },
-      image: "",
+      image: "/images/memory-master.png",
       featured: true,
     },
     {
@@ -139,37 +139,37 @@ export const siteConfig = {
         "Real-time analytics platform with custom charts, data visualization, and export functionality. Processes large datasets efficiently with interactive graphs and customizable metrics.",
       tech: ["Next.js", "Prisma", "Recharts", "PostgreSQL"],
       links: {
-        demo: "https://tu-demo3.com",
-        code: "https://github.com/tu-usuario/proyecto3",
+        demo: "https://dashboard-psi-neon-47.vercel.app/",
+        code: "https://github.com/yabreu65/dashboard",
       },
-      image: "",
+      image: "/images/dashboard.png",
       featured: true,
     },
-    {
+    /* {
       id: 4,
       name: "Social Media Platform",
       description:
         "Modern social networking application with posts, comments, real-time notifications, and user profiles. Includes image uploads, likes, follows, and a personalized feed algorithm.",
       tech: ["React", "Express", "Redis", "AWS S3"],
       links: {
-        demo: "https://tu-demo4.com",
-        code: "https://github.com/tu-usuario/proyecto4",
+        demo: "https://dashboard-psi-neon-47.vercel.app/",
+        code: "https://github.com/yabreu65/dashboard",
       },
       image: "",
-    },
+    }, */
     {
       id: 5,
-      name: "AI Content Generator",
+      name: "herramientas Seo",
       description:
         "AI-powered content creation tool that generates blog posts, social media content, and marketing copy. Integrates with OpenAI API and includes template customization.",
       tech: ["Next.js", "OpenAI", "Tailwind", "Vercel"],
       links: {
-        demo: "https://tu-demo5.com",
+        demo: "https://ai-tools-platform-seo-frontend.onrender.com/",
         code: "https://github.com/tu-usuario/proyecto5",
       },
-      image: "",
+      image: "/images/herramientas-seo.png",
     },
-    {
+    /* {
       id: 6,
       name: "Fitness Tracking App",
       description:
@@ -180,7 +180,7 @@ export const siteConfig = {
         code: "https://github.com/tu-usuario/proyecto6",
       },
       image: "",
-    },
+    }, */
   ],
 
   // ============================================

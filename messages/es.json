@@ -68,8 +68,8 @@
         "description": "Solución e-commerce full-stack con panel de administración, integración de pagos y gestión de inventario en tiempo real. Incluye filtrado de productos, carrito de compras, seguimiento de pedidos y analíticas."
       },
       "2": {
-        "name": "App de Gestión de Tareas",
-        "description": "Gestor de tareas colaborativo con actualizaciones en tiempo real, espacios de trabajo en equipo y filtrado avanzado. Construido con WebSocket para sincronización instantánea entre dispositivos y usuarios."
+        "name": "Memory Master",
+        "description": "Juego interactivo de memoria con múltiples niveles de dificultad y temas personalizables. Desafía tu mente encontrando pares de cartas con efectos visuales atractivos, sistema de puntuación y temporizador para competir contra ti mismo."
       },
       "3": {
         "name": "Dashboard de Analíticas",
@@ -80,8 +80,8 @@
         "description": "Aplicación moderna de redes sociales con publicaciones, comentarios, notificaciones en tiempo real y perfiles de usuario. Incluye carga de imágenes, likes, seguimientos y algoritmo de feed personalizado."
       },
       "5": {
-        "name": "Generador de Contenido IA",
-        "description": "Herramienta de creación de contenido impulsada por IA que genera posts de blog, contenido para redes sociales y copy de marketing. Integra con OpenAI API e incluye personalización de plantillas."
+        "name": "Herramientas SEO",
+        "description": "Plataforma completa de herramientas SEO con análisis de keywords, auditoría técnica, seguimiento de rankings y optimización de contenido. Incluye generación de metadatos, análisis de competencia y recomendaciones impulsadas por IA."
       },
       "6": {
         "name": "App de Seguimiento Fitness",
